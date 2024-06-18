@@ -17,6 +17,18 @@ body {
   background: transparent;
 }
 
+.container_perso {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.activity {
+  width: 30%;
+  height: 30%;
+  margin-bottom: 1%;
+  border: solid #18d26e;
+}
+
 body::before {
   content: "";
   position: fixed;

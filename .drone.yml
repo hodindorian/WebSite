@@ -27,5 +27,5 @@ steps:
       CONTAINERNAME: portfolio
       COMMAND: create
       OVERWRITE: true
-      ADMINS: dorianhodin,corentinrichard
+      ADMINS: dorianhodin
     depends_on: [ build-portfolio]
