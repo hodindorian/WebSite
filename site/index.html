@@ -337,6 +337,11 @@
   <script src="assets/js/bootstrap-js/swiper-bundle.min.js"></script>
   <script src="assets/js/bootstrap-js/noframework.waypoints.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    if (!window.location.href.endsWith('/')) {
+      window.location.href = window.location.href + '/';
+    }
+  </script>
 
 </body>
 </html>
