@@ -1,0 +1,35 @@
+{
+  "HOME": "Home",
+  "ABOUT_TEXT": "About me",
+  "EXPERIENCE_TEXT": "Experience",
+  "SKILLS_TEXT": "Skills",
+  "PROJECTS_TEXT": "Projects",
+  "PERSONAL_TEXT": "Personal interests",
+  "ABOUT": {
+    "TITLE": "About Me",
+    "SUBTITLE": "Junior Developer in apprenticeship",
+    "DESCRIPTION": "Currently in my 3rd year of a Computer Science Bachelor's degree (BUT Informatique) in Clermont-Ferrand, I am working as an apprentice at CGI for the client Michelin. I will continue my studies at the ISIMA engineering school after completing my degree.",
+    "BIRTHDATE": "Date of Birth",
+    "CITY": "City",
+    "WORK": "Work Experience",
+    "TIME_IN_COMPANY": "2 years and 3 months",
+    "DEGREE": "Last degree obtained",
+    "EMAIL": "Email",
+    "REPO": "Repository",
+    "MORE": "Passionate about networking and development, I am always eager to discover new programming approaches and technologies. I have developed several projects with Flutter, as well as many APIs using PHP Slim. During my apprenticeship, I am working on a Spring Boot microservice, which allows me to strengthen my Java skills.",
+    "COUNTER": {
+      "PROJECT_HOURS": "School Project hours completed :",
+      "HOURS": "hours",
+      "LANGUAGES": "More than",
+      "LANGUAGES_KNOW": "languages known and mastered",
+      "PROJECTS": "J'ai couché avec  ",
+      "PROJECTS_MADE": "hommes",
+      "LINUX": "Using Linux for",
+      "YEARS": "years"
+    }
+  },
+  "SKILLS": {
+    "TITLE": "Skills",
+    "DESCRIPTION": "Here are my different skills along with their proficiency level:"
+  }
+}

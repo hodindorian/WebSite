@@ -1,0 +1,38 @@
+<div [class.dark-mode]="darkMode" class="app-container">
+  <header class="navbar">
+    <div class="logo">
+      <a routerLink="/">Dorian HODIN</a>
+    </div>
+
+    <nav class="nav-links">
+      <a routerLink="/about" routerLinkActive="active">{{ 'ABOUT_TEXT' | translate }}</a>
+      <a routerLink="/experience" routerLinkActive="active">{{ 'EXPERIENCE_TEXT' | translate }}</a>
+      <a routerLink="/skills" routerLinkActive="active">{{ 'SKILLS_TEXT' | translate }}</a>
+      <a routerLink="/projects" routerLinkActive="active">{{ 'PROJECTS_TEXT' | translate }}</a>
+      <a routerLink="/perso" routerLinkActive="active">{{ 'PERSONAL_TEXT' | translate }}</a>
+    </nav>
+
+    <div class="actions">
+      <button (click)="switchLang('fr')">FR</button>
+      <button (click)="switchLang('en')">EN</button>
+
+      <button (click)="toggleTheme()">
+        {{ darkMode ? '🌙' : '☀️' }}
+      </button>
+    </div>
+
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/dorian-hodin-45881a252/" target="_blank">
+        <img ngSrc="assets/img/logo-linkedin-noir-et-blanc.webp" alt="LinkedIn" width="60" height="60" priority>
+      </a>
+    </div>
+  </header>
+
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer class="footer">
+    Copyright © {{ year }}
+  </footer>
+</div>

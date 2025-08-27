@@ -1,0 +1,105 @@
+.skills {
+  .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    h2 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #222;
+    }
+
+    h2::after {
+      content: none !important;
+    }
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.1rem;
+  }
+
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .skill-card {
+    flex: 1 1 calc(33% - 1rem); // 3 compétences par ligne
+    min-width: 220px;
+    margin-bottom: 1.5rem;
+
+    .skill {
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+      color: #222;
+
+      i.val {
+        color: #0077b5; // couleur pourcentage
+      }
+    }
+
+    .progress-bar-wrap {
+      width: 100%;
+      background: #ececec;
+      border-radius: 10px;
+      height: 20px;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background: #0077b5;
+      border-radius: 10px;
+      transition: width 1s ease-in-out;
+    }
+  }
+
+  /* -------------------- DARK MODE -------------------- */
+  &.dark-mode {
+    .section-title h2 {
+      color: #f5f5f5;
+    }
+
+    p {
+      color: #f5f5f5;
+    }
+
+    .skill-card {
+      .skill {
+        color: #f5f5f5;
+
+        i.val {
+          color: #66b2ff;
+        }
+      }
+
+      .progress-bar-wrap {
+        background: #333;
+      }
+
+      .progress-bar {
+        background: #66b2ff;
+      }
+    }
+  }
+}
+
+/* -------------------- RESPONSIVE -------------------- */
+/* 2 par ligne sur petit écran */
+@media (max-width: 992px) {
+  .skill-card {
+    flex: 1 1 calc(50% - 1rem);
+  }
+}
+
+/* 1 par ligne sur très petit écran */
+@media (max-width: 576px) {
+  .skill-card {
+    flex: 1 1 100%;
+  }
+}

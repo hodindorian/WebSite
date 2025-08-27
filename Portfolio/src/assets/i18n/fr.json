@@ -1,0 +1,35 @@
+{
+  "HOME": "Accueil",
+  "ABOUT_TEXT": "À propos de moi",
+  "EXPERIENCE_TEXT": "Expériences",
+  "SKILLS_TEXT": "Compétences",
+  "PROJECTS_TEXT": "Projets",
+  "PERSONAL_TEXT": "Intérêt personnel",
+  "ABOUT": {
+    "TITLE": "À propos de moi",
+    "SUBTITLE": "Développeur Junior en alternance",
+    "DESCRIPTION": "Actuellement en 2ème école d'ingénieur à ISIMA à Clermont-Ferrand, je suis en alternance chez CGI pour le client Michelin.",
+    "BIRTHDATE": "Date de naissance",
+    "CITY": "Ville",
+    "WORK": "Expérience d'entreprise",
+    "TIME_IN_COMPANY": "2 ans et 3 mois",
+    "DEGREE": "Dernier diplôme obtenu",
+    "EMAIL": "Mail",
+    "REPO": "Repo",
+    "MORE": "Adepte de réseau et de développement, je suis curieux de découvrir de nouvelles façon de programmer ainsi que de nouvelles technologies. J'ai réalisé plusieurs projets en Flutter, et de nombreuses API en PHP Slim ainsi qu'en Java SpringBoot. Je réalise un microservice en Spring Boot et une application full stack Angular/NodeJs dans le cadre de mon alternance, ce qui me permet de développer mes capacités en Java, en NodeJs ainsi qu'en Angular.",
+    "COUNTER": {
+      "PROJECT_HOURS": "Heures de projets écoles réalisées :",
+      "HOURS": "heures",
+      "LANGUAGES": "Plus de",
+      "LANGUAGES_KNOW": "langages connus et maitrisés",
+      "PROJECTS": "J'ai couché avec  ",
+      "PROJECTS_MADE": "hommes",
+      "LINUX": "Utilisation de Linux depuis",
+      "YEARS": "années"
+    }
+  },
+  "SKILLS": {
+    "TITLE": "Compétences",
+    "DESCRIPTION": "Voici mes différentes compétences ainsi que leur niveau de maîtrise :"
+  }
+}
