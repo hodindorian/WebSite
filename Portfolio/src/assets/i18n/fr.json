@@ -58,7 +58,43 @@
       "TITLE": "Cinéma",
       "DESC": "Cinéphile grâce à ma soeur et mes parents, je continue d'aller régulierement au cinéma et de faire découvrir mes films et séries preferées à mon entourage."
     }
+  },
+  "PROJECTS": {
+    "TITLE": "Mes projets",
+    "TECHNOLOGIES": "Technologies utilisées",
+    "YEAR": "Année de réalisation",
+    "NOTE": "Note finale",
+    "REPO": "Lien du répo",
+
+    "DAFL": {
+      "TITLE": "DAFL Music",
+      "DESCRIPTION": "DAFL Music est un projet que j'ai réalisé à l'aide de 3 de mes camarades dans le cadre de notre BUT Informatique de deuxième année.\n\nLe concept du projet s'inspire de Tinder et de Spotify. Par exemple, vous avez installé l'application mobile DAFL Music et vous croisez quelqu'un qui a aussi l'application, par conséquent cela va afficher la musique qu'écoutait l'utilisateur que vous avez croisé sur votre téléphone. Cela permet de découvrir de nouvelles musiques et de nouveaux artistes.\n\nUne fois que vous avez aimé le son de la personne que vous avez croisé, si cette personne a aussi aimé le son que vous avez écouté quand vous vous êtes croisés vous allez pouvoir discuter ensemble, afin de faire de nouvelles découvertes de sons et d'artistes.\n\nCe projet était un vrai challenge technique, car nous avons utilisé une technologie que nous ne connaissions pas, Flutter, et nous devions réaliser différents serveurs comme le serveur de messagerie. Nous avons plutôt bien réussi le projet, mais nous n'avons pas eu le temps de le finir malheureusement.\n\nVoici ci-dessous quelques images de notre projet, ainsi que le lien du répo :",
+      "TECHNOLOGIES": "Flutter, PHP Slim, SQL",
+      "YEAR": "2022-2023",
+      "NOTE": "13.5/20"
+    },
+
+    "FANTOM": {
+      "TITLE": "Fantom Games",
+      "DESCRIPTION": "Fantom Games a été réalisé dans le cadre de ma troisième année de BUT Informatique. Nous avons réalisé en équipe de 4 un site web avec des mini-jeux permettant de gagner des crypto-actifs tout en s'amusant.\n\nVous souhaitez faire des petits mini-jeux avec vos amis et gagner de l'argent en même temps? Fantom Games est le site qu'il vous faut! Le contexte de ce projet était de faire un site web assez simple, avec des mini-jeux et chaque victoire à un mini-jeu permettait de gagner des Fantom Coin, un crypto-actif développé spécialement pour le projet.\n\nLe site propose un morpion et une bataille navale fonctionnelle. Voici le lien du serveur (encore en développement, des bugs peuvent arriver) : https://www.fantomgames.eu\n\nCe projet a été très compliqué, de par son aspect technique car réaliser un crypto-actif était très complexe. Nous avons quand même bien réussi ces différentes tâches, mais déployer un crypto-actif revenait à trop cher, nous n'avons donc pas d'argent derrière le site mais il marche tout de même.\n\nVoici ci-dessous quelques images de notre projet, ainsi que le lien du répo :",
+      "TECHNOLOGIES": "Flutter, Dart, Socket IO (Javascript), PHP Slim, Docker, Reverse Proxy, Cryptomonnaie",
+      "YEAR": "2023-2024",
+      "NOTE": "15.5/20"
+    },
+
+    "TEMOIGNAGES": {
+      "TITLE": "Témoignages",
+      "DESCRIPTION": "Dernier projet de 2ème année, Témoignage est un projet qui a pour but de récupérer des témoignages d'étudiants et de profs et de les afficher en ligne.\n\nLe sujet était donné par notre département, et il permettait de mettre en avant les vrais témoignages des gens qui ont suivi la formation, afin de guider au mieux les personnes souhaitant rejoindre cette formation.\n\nPar exemple, on interrogeait différents élèves et profs, et on filmait ensuite avec eux une petite vidéo de 5 minutes ou on pose quelques questions pour en savoir plus.\n\nCe projet était assez simple sur papier, mais nous avons eu pas mal de difficulté comme par exemple le déploiement du site. Nous avons aussi eu des problèmes de charge de travail au sein du groupe, ce qui a empêché de rendre un site parfait et fonctionnel.\n\nVoici ci-dessous quelques images de notre projet, ainsi que le lien du répo :",
+      "TECHNOLOGIES": "HTML, CSS, PHP, PHP Slim, SQL",
+      "YEAR": "2023",
+      "NOTE": "12/20"
+    },
+    "IFTLZ": {
+      "TITLE": "IFTLZ",
+      "DESCRIPTION": "IFTLZ est un projet qui vise à reconnaître des sons en utilisant un traitement du signal (transformée de Fourier) pendant la première année d'école d'ingénieur à Isima. Le sujet était donné par nos profs au début de l'année, et nous a permis d'intégrer de bonnes notions de mathématiques dans un projet informatique.\n\nLe projet était divisé en deux parties, la première pour  le projet et une deuxième pour développer la solution. Notre projet s'est bien déroulé, la répartition du travail a été bien faite et nous avons pu rendre une application fonctionnelle, qui utilisait l'API de Spotify afin de pouvoir récupérer les informations sur les musiques que notre application . Le projet nous  permis de largement valider l'année, et aussi de gagner de nombreuses compétences en modélisation et en organisation de projet.",
+      "TECHNOLOGIES": "Flutter, Dart, PHP Slim, Reverse Proxy, Python, API Spotify",
+      "YEAR": "2024-2025",
+      "NOTE": "UE Validée"
+    }
   }
-
-
 }

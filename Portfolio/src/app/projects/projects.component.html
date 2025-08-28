@@ -1,20 +1,42 @@
-<div class="container projectContainer">
+<div [class.dark-mode]="darkMode" class="container project-container">
   <div class="section-title">
-    <h2>Mes projets :</h2>
+    <h2>{{ 'PROJECTS.TITLE' | translate }}</h2>
   </div>
-  <div class="project">
-    <a href="projetcs/dafl.html" target="_blank">
-      <img src="assets/img/dafl/dafl.png" alt="DAFL Music" width="100%">
-    </a>
+
+  <div class="projects-grid">
+    <div
+      class="project-card"
+      *ngFor="let project of projects; let last = last"
+      [class.full-width]="last"
+      (click)="openProject(project)"
+    >
+      <img [ngSrc]="project.image" [alt]="project.titleKey | translate" width="350" height="250" priority disableOptimizedSrcset >
+      <h3>{{ project.titleKey | translate }}</h3>
+    </div>
   </div>
-  <div class="project">
-    <a href="projetcs/temoignages.html" target="_blank">
-      <img src="assets/img/temoignage/temoignages.png" alt="Temoignages" width="100%">
-    </a>
-  </div>
-  <div class="project">
-    <a href="projetcs/fantomgames.html" target="_blank">
-      <img src="assets/img/fantomgames/fantomgames.png" alt="Fantom Games" width="100%">
-    </a>
+
+  <!-- Popup Fullscreen -->
+  <div class="project-popup" *ngIf="selectedProject">
+    <div class="popup-content">
+      <button class="close-btn" (click)="closeProject()">×</button>
+      <h1>{{ selectedProject.titleKey | translate }}</h1>
+      <img [ngSrc]="selectedProject.image" [alt]="selectedProject.titleKey | translate" class="main-image" width="350" height="200" disableOptimizedSrcset priority>
+
+      <div class="project-details">
+        <p><strong>{{ 'PROJECTS.TECHNOLOGIES' | translate }}:</strong> {{ selectedProject.technologiesKey | translate }}</p>
+        <p><strong>{{ 'PROJECTS.YEAR' | translate }}:</strong> {{ selectedProject.yearKey | translate }}</p>
+        <p><strong>{{ 'PROJECTS.NOTE' | translate }}:</strong> {{ selectedProject.noteKey | translate }}</p>
+      </div>
+
+      <div class="project-description">
+        <p>{{ selectedProject.descriptionKey | translate }}</p>
+        <ng-container *ngIf="selectedProject.extraImages">
+          <img *ngFor="let img of selectedProject.extraImages" [ngSrc]="img" width="800" height="600" disableOptimizedSrcset [alt]="selectedProject.titleKey">
+        </ng-container>
+        <p *ngIf="selectedProject.repoLink">
+          <strong><a [href]="selectedProject.repoLink" target="_blank">{{ 'PROJECTS.REPO' | translate }}</a></strong>
+        </p>
+      </div>
+    </div>
   </div>
 </div>

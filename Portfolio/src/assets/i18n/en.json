@@ -58,6 +58,44 @@
       "TITLE": "Cinema",
       "DESC": "A cinephile thanks to my sister and parents, I continue going to the cinema regularly and enjoy sharing my favorite movies and series with my friends and family"
     }
-  }
+  },
+  "PROJECTS": {
+    "TITLE": "My Projects",
+    "TECHNOLOGIES": "Technologies used",
+    "YEAR": "Year",
+    "NOTE": "Final grade",
+    "REPO": "Repository link",
 
+    "DAFL": {
+      "TITLE": "DAFL Music",
+      "DESCRIPTION": "DAFL Music is a project I did with 3 classmates as part of our 2nd year IT program.\n\nThe project concept is inspired by Tinder and Spotify. For example, you install the DAFL Music mobile app and meet someone else with the app. The app then shows the music that person was listening to on your phone, allowing you to discover new music and artists.\n\nOnce you liked the other person’s track, if they liked yours too at the same meeting moment, you can chat together and share music discoveries.\n\nThis project was a real technical challenge, as we used a technology we didn’t know, Flutter, and had to implement several servers such as the messaging server. We did a good job but didn’t have time to finish it completely.\n\nBelow are some images of our project, and the repository link:",
+      "TECHNOLOGIES": "Flutter, PHP Slim, SQL",
+      "YEAR": "2022-2023",
+      "NOTE": "13.5/20"
+    },
+
+    "FANTOM": {
+      "TITLE": "Fantom Games",
+      "DESCRIPTION": "Fantom Games was realized as part of my 3rd year IT program. In a team of 4, we built a website with mini-games allowing users to earn crypto-assets while having fun.\n\nWant to play mini-games with your friends and earn money at the same time? Fantom Games is the site for that! The project context was simple, each mini-game victory gives Fantom Coin, a crypto-asset developed specifically for the project.\n\nThe site features tic-tac-toe and battleship. Here’s the server link (still in development, may have bugs): https://www.fantomgames.eu\n\nThis project was very complex technically. Deploying a crypto-asset was expensive, but we still managed most of the tasks. The site works despite budget limits.\n\nBelow are some images of our project, and the repository link:",
+      "TECHNOLOGIES": "Flutter, Dart, Socket IO (Javascript), PHP Slim, Docker, Reverse Proxy, Cryptocurrency",
+      "YEAR": "2023-2024",
+      "NOTE": "15.5/20"
+    },
+
+    "TEMOIGNAGES": {
+      "TITLE": "Testimonials",
+      "DESCRIPTION": "Last 2nd year project, Testimonials aims to collect student and teacher feedback and display them online.\n\nThe topic was provided by our department and highlights real experiences of people who attended the program, to guide potential students.\n\nFor example, we interviewed several students and teachers, filming short 5-minute videos to ask questions and gather insights.\n\nThe project was simple on paper, but we faced difficulties like website deployment and workload issues within the team, preventing a perfect and fully functional site.\n\nBelow are some images of our project, and the repository link:",
+      "TECHNOLOGIES": "HTML, CSS, PHP, PHP Slim, SQL",
+      "YEAR": "2023",
+      "NOTE": "12/20"
+    },
+    "IFTLZ": {
+      "TITLE": "IFTLZ",
+      "DESCRIPTION": "IFTLZ is a project that aims to recognize sounds using signal processing (Fourier transform) during the first year of engineering school at ISIMA. The subject was given by our professors at the beginning of the year and allowed us to integrate solid mathematical concepts into a computer science project.\n\nThe project was divided into two parts: the first one for designing the project, and the second one for developing the solution. Our project went well, the work distribution was efficient, and we managed to deliver a functional application that used the Spotify API to retrieve information about the music our application analyzed. This project allowed us to successfully validate the year and also gain many skills in modeling and project organization.",
+      "TECHNOLOGIES": "Flutter, Dart, PHP Slim, Reverse Proxy, Python, Spotify API",
+      "YEAR": "2024-2025",
+      "NOTE": "Validated UE"
+    }
+
+  }
 }
