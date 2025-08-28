@@ -8,6 +8,10 @@
       font-weight: 700;
       color: #222;
     }
+
+    h2::after {
+      content: none !important;
+    }
   }
 
   .projects-grid {

@@ -97,5 +97,50 @@
       "NOTE": "Validated UE"
     }
 
+  },
+  "EXPERIENCES": {
+    "TITLE": "Experiences",
+    "EXP1": {
+      "DATE": "July 2022",
+      "COMPANY": "Customer advisor at Sarl Top Modèle, Lozanne, 69380",
+      "DESCRIPTION": "My first summer job, I was able to discover the business world and improve my communication and sales skills while working in a small team.",
+      "TASKS": {
+        "1": "Sales, cashier duties",
+        "2": "Teamwork",
+        "3": "Stock reception and sorting"
+      }
+    },
+    "EXP2": {
+      "DATE": "April 10 - June 16, 2023",
+      "COMPANY": "Internship at CGI for Michelin",
+      "DESCRIPTION": "My first internship during my BUT program, where I gained experience in database scripting, monitoring, and teamwork in an industrial context.",
+      "TASKS": {
+        "1": "Developed a flow management and monitoring application",
+        "2": "Wrote numerous SQL scripts with Oracle",
+        "3": "Used Splunk for monitoring"
+      }
+    },
+    "EXP3": {
+      "DATE": "September 2023 - August 2024",
+      "COMPANY": "Apprenticeship at CGI for Michelin",
+      "DESCRIPTION": "After my internship, CGI offered me an apprenticeship. This allowed me to work on real client projects, strengthen my technical skills, and be fully integrated in the MB4 team of the CORTEX program.",
+      "TASKS": {
+        "1": "Developed services for Kafka testing",
+        "2": "Created Grafana dashboards",
+        "3": "Developed microservices with Spring Boot",
+        "4": "Configured Kafka and AKHQ with Docker"
+      }
+    },
+    "EXP4": {
+      "DATE": "September 2024 - August 2025",
+      "COMPANY": "Apprenticeship at CGI for Michelin",
+      "DESCRIPTION": "After my first apprenticeship year at CGI, I continued in the same position to accompany my first year at ISIMA engineering school.",
+      "TASKS": {
+        "1": "Developed services for Kafka testing",
+        "2": "Developed a service to optimize Industrialization and Production deployments",
+        "3": "Created a service using Angular and NodeJS",
+        "4": "Configured GitLab CI/CD pipelines for my team"
+      }
+    }
   }
 }

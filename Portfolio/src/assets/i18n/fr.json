@@ -96,5 +96,50 @@
       "YEAR": "2024-2025",
       "NOTE": "UE Validée"
     }
+  },
+  "EXPERIENCES": {
+    "TITLE": "Expériences",
+    "EXP1": {
+      "DATE": "Juillet 2022",
+      "COMPANY": "Conseiller clientèle chez Sarl Top Modèle, Lozanne, 69380",
+      "DESCRIPTION": "Mon premier travail d'été, j'ai pu découvrir le monde de l'entreprise...",
+      "TASKS": {
+        "1": "Vente, caisse",
+        "2": "Travail dans une équipe",
+        "3": "Réception et tri de la réserve"
+      }
+    },
+    "EXP2": {
+      "DATE": "10 Avril - 16 Juin 2023",
+      "COMPANY": "Stage chez CGI pour Michelin",
+      "DESCRIPTION": "Premier stage dans le cadre de mon BUT...",
+      "TASKS": {
+        "1": "Développement d'une application de gestion de flux monitoring",
+        "2": "Écriture de nombreux scripts SQL avec Oracle",
+        "3": "Utilisation de Splunk"
+      }
+    },
+    "EXP3": {
+      "DATE": "Septembre 2023 - Août 2024",
+      "COMPANY": "Alternance chez CGI pour Michelin",
+      "DESCRIPTION": "Après mon stage, CGI m'a proposé une alternance...",
+      "TASKS": {
+        "1": "Développement de services pour tests Kafka",
+        "2": "Création de Dashboard Grafana",
+        "3": "Création de micro-services SpringBoot",
+        "4": "Configuration Kafka et AKHQ avec Docker"
+      }
+    },
+    "EXP4": {
+      "DATE": "Septembre 2024 - Août 2025",
+      "COMPANY": "Alternance chez CGI pour Michelin",
+      "DESCRIPTION": "Après ma première année d'alternance à CGI, j'ai continué dans le même cadre pour accompagner ma première année d'école d'ingénieur à ISIMA",
+      "TASKS": {
+        "1": "Développement de services pour tests Kafka",
+        "2": "Développement d'un service pour optimiser les Mise en Indus et Mise en Productions",
+        "3": "Création d'un service en Angular et NodeJS'",
+        "4": "Configuration de CI/CD Gitlab pour mon équipe"
+      }
+    }
   }
 }
