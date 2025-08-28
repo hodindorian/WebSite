@@ -20,7 +20,7 @@ export class AboutComponent implements OnInit {
     this.themeService.darkMode$.subscribe(value => this.darkMode = value);
     this.animateCounter('projectHours', 350);
     this.animateCounter('languages', 5);
-    this.animateCounter('projects', 583);
+    this.animateCounter('projects', 4);
     this.animateCounter('linuxYears', 4);
   }
 
