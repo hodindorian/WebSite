@@ -1,42 +1,16 @@
-<div class="interests container">
+<div [class.dark-mode]="darkMode" class="interests">
   <div class="section-title">
-    <h2>Intérêt personnel</h2>
+    <h2>{{ 'PERSO.TITLE' | translate }}</h2>
   </div>
+
   <div class="row">
-    <div class="container_perso">
-      <div class="activity">
-        <img ngSrc="https://images.pexels.com/photos/586415/pexels-photo-586415.jpeg" width="100%" height="200%" style="float: left; margin-right: 10px;" alt="Pinao">
-        <h1 style="float: left;">Piano</h1>
-        <p style="float: left;">Ma grand-mère m'as appris le piano quand j'était en primaire, et j'ai repris en autodidacte depuis 5 ans</p>
-      </div>
-      <div class="activity">
-        <img ngSrc="https://c4.wallpaperflare.com/wallpaper/49/843/630/guitar-wallpaper-preview.jpg" width="100%" height="200%" style="float: left; margin-right: 10px;" alt="Chant">
-        <h1 style="float: left;">Chant</h1>
-        <p style="float: left;">J'ai récemment commencé à apprendre le chant avec un prof pour pouvoir accompagner ma mère qui joue de la guitare</p>
-      </div>
-      <div class="activity">
-        <img ngSrc="https://4kwallpapers.com/images/wallpapers/boxing-gloves-dark-2560x2560-15486.jpg" width="100%" height="200%" style="float: left; margin-right: 10px;" alt="Boxe">
-        <h1 style="float: left;">Boxe</h1>
-        <p style="float: left;">Un coach à ma salle de sport m'as initié à la boxe thaï et anglaise avec un sac de frappe, et j'ai donc continué en m'inscrivant à un club de boxe anglaise depuis début 2025</p>
-      </div>
-    </div>
-    <div class="container_perso">
-      <div class="activity">
-        <img ngSrc="https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114193.jpg" width="100%" height="200%" style="float: left; margin-right: 10px;" alt="Musculation">
-        <h1 style="float: left;">Musculation</h1>
-        <p style="float: left;">J'était inscrit à la salle de sport pendant 3 ans, et maintenant je continue en faisant du Street Workout.</p>
-      </div>
-      <div class="activity">
-        <img ngSrc="https://i.pinimg.com/736x/04/6a/35/046a35b2b4c2cdbc2e462bcb84e2eab9.jpg" width="100%" height="200%" style="float: left; margin-right: 10px;" alt="CourseAPied">
-        <h1 style="float: left;">Course à pied</h1>
-        <p style="float: left;">J'ai commencé à m'entraîner début 2024, et j'ai réalisé la Course des Volcans (25km, 550d+) et la Course des 9 Clochers (28km, 550D+) à la fin de l'année 2024</p>
-      </div>
-      <div class="activity">
-        <img ngSrc="https://www.fubiz.net/wp-content/uploads/2016/03/bwemptycinemas1-900x698.jpg" width="100%" height="200%" style="float: left; margin-right: 10px;" alt="Cinema">
-        <h1 style="float: left;">Cinéma</h1>
-        <p style="float: left;">Cinéphile grâce à ma soeur et mes parents, je continue d'aller régulierement au cinéma et de faire découvrir mes films et séries preferées à mon entourage</p>
-      </div>
-    </div>
+      @for (activity of activities; track activity) {
+        <div class="activity">
+          <img [ngSrc]="'assets/img/perso/'+activity.alt.toLowerCase().replaceAll(' ','')+'.png'" width="450" height="300" [alt]="activity.alt" priority>
+          <h1>{{ activity.titleKey | translate }}</h1>
+          <p>{{ activity.descKey | translate }}</p>
+        </div>
+      }
   </div>
 </div>
 

@@ -8,7 +8,7 @@
   "ABOUT": {
     "TITLE": "About Me",
     "SUBTITLE": "Junior Developer in apprenticeship",
-    "DESCRIPTION": "Currently in my 3rd year of a Computer Science Bachelor's degree (BUT Informatique) in Clermont-Ferrand, I am working as an apprentice at CGI for the client Michelin. I will continue my studies at the ISIMA engineering school after completing my degree.",
+    "DESCRIPTION": "Currently in 2nd year of engineering school at ISIMA in Clermont-Ferrand, I am on a work-study program at CGI for the client Michelin.",
     "BIRTHDATE": "Date of Birth",
     "CITY": "City",
     "WORK": "Work Experience",
@@ -16,7 +16,7 @@
     "DEGREE": "Last degree obtained",
     "EMAIL": "Email",
     "REPO": "Repository",
-    "MORE": "Passionate about networking and development, I am always eager to discover new programming approaches and technologies. I have developed several projects with Flutter, as well as many APIs using PHP Slim. During my apprenticeship, I am working on a Spring Boot microservice, which allows me to strengthen my Java skills.",
+    "MORE": "As a network and development enthusiast, I am curious to discover new ways of programming as well as new technologies. I have carried out several projects in Flutter, and numerous APIs in PHP Slim as well as in Java SpringBoot. I am developing a microservice in Spring Boot and a full stack Angular/NodeJs application as part of my work-study program, which allows me to develop my skills in Java, NodeJs and Angular.",
     "COUNTER": {
       "PROJECT_HOURS": "School Project hours completed :",
       "HOURS": "hours",
@@ -31,5 +31,33 @@
   "SKILLS": {
     "TITLE": "Skills",
     "DESCRIPTION": "Here are my different skills along with their proficiency level:"
+  },
+  "PERSO": {
+    "TITLE": "Personal interests",
+    "PIANO": {
+      "TITLE": "Piano",
+      "DESC": "My grandmother taught me piano when I was in primary school, and I resumed as a self-taught musician 5 years ago"
+    },
+    "CHANT": {
+      "TITLE": "Singing",
+      "DESC": "I recently started learning singing with a teacher so I can accompany my mother who plays guitar"
+    },
+    "BOXE": {
+      "TITLE": "Boxing",
+      "DESC": "A coach at my gym introduced me to Thai and English boxing with a punching bag, and I continued by joining an English boxing club since early 2025"
+    },
+    "MUSCU": {
+      "TITLE": "Weight training",
+      "DESC": "I was enrolled at the gym for 3 years, and now I continue by practicing Street Workout."
+    },
+    "COURSE": {
+      "TITLE": "Running",
+      "DESC": "I started training in early 2024, and I completed the 'Course des Volcans' (25km, 550d+) and the 'Course des 9 Clochers' (28km, 550d+) at the end of 2024"
+    },
+    "CINEMA": {
+      "TITLE": "Cinema",
+      "DESC": "A cinephile thanks to my sister and parents, I continue going to the cinema regularly and enjoy sharing my favorite movies and series with my friends and family"
+    }
   }
+
 }

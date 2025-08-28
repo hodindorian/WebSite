@@ -31,5 +31,34 @@
   "SKILLS": {
     "TITLE": "Compétences",
     "DESCRIPTION": "Voici mes différentes compétences ainsi que leur niveau de maîtrise :"
+  },
+  "PERSO": {
+    "TITLE": "Intérêt personnel",
+    "PIANO": {
+      "TITLE": "Piano",
+      "DESC": "Ma grand-mère m'as appris le piano quand j'était en primaire, et j'ai repris en autodidacte depuis 5 ans."
+    },
+    "CHANT": {
+      "TITLE": "Chant",
+      "DESC": "J'ai récemment commencé à apprendre le chant avec un prof pour pouvoir accompagner ma mère qui joue de la guitare."
+    },
+    "BOXE": {
+      "TITLE": "Boxe",
+      "DESC": "Un coach à ma salle de sport m'as initié à la boxe thaï et anglaise avec un sac de frappe, et j'ai donc continué en m'inscrivant à un club de boxe anglaise depuis début 2025."
+    },
+    "MUSCU": {
+      "TITLE": "Musculation",
+      "DESC": "J'était inscrit à la salle de sport pendant 3 ans, et maintenant je continue en faisant du Street Workout."
+    },
+    "COURSE": {
+      "TITLE": "Course à pied",
+      "DESC": "J'ai commencé à m'entraîner début 2024, et j'ai réalisé la Course des Volcans (25km, 550d+) et la Course des 9 Clochers (28km, 550D+) à la fin de l'année 2024."
+    },
+    "CINEMA": {
+      "TITLE": "Cinéma",
+      "DESC": "Cinéphile grâce à ma soeur et mes parents, je continue d'aller régulierement au cinéma et de faire découvrir mes films et séries preferées à mon entourage."
+    }
   }
+
+
 }

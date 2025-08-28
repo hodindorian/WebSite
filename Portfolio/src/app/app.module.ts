@@ -45,9 +45,9 @@ export function HttpLoaderFactory() {
     AppComponent,
     AboutComponent,
     ExperienceComponent,
-    PersoComponent,
     ProjectsComponent,
     SkillsComponent,
+    PersoComponent
   ],
   providers: [
     provideHttpClient(withFetch()),
